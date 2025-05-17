@@ -3,3 +3,4 @@ numpy
 joblib
 pyinstaller
 xgboost
+scikit-learn
