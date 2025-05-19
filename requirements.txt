@@ -2,3 +2,6 @@ streamlit
 numpy
 joblib
 pyinstaller
+xgboost
+scikit-learn
+tpot

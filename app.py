@@ -10,12 +10,12 @@ st.title("💻 Diffusion Coefficient Prediction for Gases in MOFs")
 st.markdown("Select a gas type, enter the MOF features, and click **Predict** to get log D.")
 
 # Gas selection
-gas_type = st.selectbox("Select Gas", ["CO2", "O2", "N2"])
+gas_type = st.selectbox("Select Gas", ["CO2", "O2", "N2", "CH4", "H2"])
 
 # Feature input
 feature_labels = [
-    'PLD', 'LCD', 'LCD/PLD', 'Sacc (m2/g-1)', 'porosity',
-    'pore volume (cm3/g-1)', 'Qst (kJ/mol)', 'uptake (1 bar)', 'log d0'
+    'PLD (Å)', 'LCD (Å)', 'LCD/PLD', 'Accessible Surface Area (m2/g)', 'Porosity',
+    'Pore Volume (cm3/g)', 'Qst (kJ/mol)', 'Uptake at 1 bar (mol/kg)', 'log D0 (cm2/s)'
 ]
 
 features = []
